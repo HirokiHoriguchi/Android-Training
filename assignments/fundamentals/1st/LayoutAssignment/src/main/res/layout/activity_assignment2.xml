@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment2Activity">
+
+    <!-- このLinearLayoutをRelativeLayoutに変更して同じレイアウトを実現してください -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffc356"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/droid"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff9630"
+            android:text="button1"
+            android:layout_toRightOf="@id/droid"
+            android:id="@+id/text1"
+            android:layout_alignTop="@+id/droid"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffedc6"
+            android:text="button2"
+            android:layout_toRightOf="@id/droid"
+            android:layout_below="@+id/text1"
+            android:layout_alignBottom="@id/droid"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+</FrameLayout>

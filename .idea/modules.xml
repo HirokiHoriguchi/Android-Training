@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/1st/LayoutAssignment/1-1-LayoutAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/1st/LayoutAssignment/1-1-LayoutAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/1st/Layoutpractice/1-1-LayoutPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/1st/Layoutpractice/1-1-LayoutPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/10th/DatabaseAssignment/1-10-DatabaseAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/10th/DatabaseAssignment/1-10-DatabaseAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/10th/DatabasePractice/1-10-DatabasePractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/10th/DatabasePractice/1-10-DatabasePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/11th/TestAssignment/1-11-TestAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/11th/TestAssignment/1-11-TestAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/11th/TestPractice/1-11-TestPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/11th/TestPractice/1-11-TestPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/2nd/ControllerAssignment/1-2-ControllerAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/2nd/ControllerAssignment/1-2-ControllerAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/2nd/ControllerPractice/1-2-ControllerPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/2nd/ControllerPractice/1-2-ControllerPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/3rd/ResourceAssignment/1-3-ResourceAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/3rd/ResourceAssignment/1-3-ResourceAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/3rd/ResourceManagement/app/1-3-ResourceManagement.iml" filepath="$PROJECT_DIR$/practice/fundamentals/3rd/ResourceManagement/app/1-3-ResourceManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/4th/MessagingAndNotification/app/1-4-MessagingAndNotificationAssignments.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/4th/MessagingAndNotification/app/1-4-MessagingAndNotificationAssignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/4th/MessagingAndNotification/app/1-4-MessagingAndNotificationPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/4th/MessagingAndNotification/app/1-4-MessagingAndNotificationPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/5th/ActionBarAssignment/1-5-ActionBarAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/5th/ActionBarAssignment/1-5-ActionBarAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/5th/ActionBarPractice/1-5-ActionBarPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/5th/ActionBarPractice/1-5-ActionBarPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/6th/ListViewAssignment/1-6-ListViewAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/6th/ListViewAssignment/1-6-ListViewAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/6th/ListViewPractice/1-6-ListViewPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/6th/ListViewPractice/1-6-ListViewPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/7th/SerializeAndCollectionAssignment/1-7-SerializeAndCollectionAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/7th/SerializeAndCollectionAssignment/1-7-SerializeAndCollectionAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/7th/SerializeAndCollectionPractice/1-7-SerializeAndCollectionPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/7th/SerializeAndCollectionPractice/1-7-SerializeAndCollectionPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/8th/AsyncAssignment/1-8-AsyncAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/8th/AsyncAssignment/1-8-AsyncAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/8th/AsyncPractice/1-8-AsyncPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/8th/AsyncPractice/1-8-AsyncPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/fundamentals/9th/NetworkAssignment/1-9-NetworkAssignment.iml" filepath="$PROJECT_DIR$/assignments/fundamentals/9th/NetworkAssignment/1-9-NetworkAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/fundamentals/9th/NetworkPractice/1-9-NetworkPractice.iml" filepath="$PROJECT_DIR$/practice/fundamentals/9th/NetworkPractice/1-9-NetworkPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/advanced/1st/DebugPractice/2-1-DebugPractice.iml" filepath="$PROJECT_DIR$/practice/advanced/1st/DebugPractice/2-1-DebugPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/advanced/3rd/LayoutAssignment/2-3-AdvancedLayoutAssignment.iml" filepath="$PROJECT_DIR$/assignments/advanced/3rd/LayoutAssignment/2-3-AdvancedLayoutAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/advanced/3rd/LayoutPractice/2-3-AdvancedLayoutPractice.iml" filepath="$PROJECT_DIR$/practice/advanced/3rd/LayoutPractice/2-3-AdvancedLayoutPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudio.iml" filepath="$PROJECT_DIR$/AndroidStudio.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/assignments/advanced/3rd/LayoutAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/10th/DatabaseAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/11th/TestAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/1st/LayoutAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/2nd/ControllerAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/3rd/ResourceAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/4th/MessagingAndNotification/app" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/5th/ActionBarAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/6th/ListViewAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/7th/SerializeAndCollectionAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/8th/AsyncAssignment" />
+            <option value="$PROJECT_DIR$/assignments/fundamentals/9th/NetworkAssignment" />
+            <option value="$PROJECT_DIR$/practice/advanced/1st/DebugPractice" />
+            <option value="$PROJECT_DIR$/practice/advanced/3rd/LayoutPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/10th/DatabasePractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/11th/TestPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/1st/Layoutpractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/2nd/ControllerPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/3rd/ResourceManagement/app" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/4th/MessagingAndNotification/app" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/5th/ActionBarPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/6th/ListViewPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/7th/SerializeAndCollectionPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/8th/AsyncPractice" />
+            <option value="$PROJECT_DIR$/practice/fundamentals/9th/NetworkPractice" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment4Activity">
+    <!-- TODO: 左側から順に、下記の View を配置していき、そのまとまりを画面上部に揃える -->
+    <!-- 1. プロフィール画像(ic_launcher)と、それを囲う四角形の枠、その下に プロフィール と書かれた文字 -->
+    <!-- 2. 1. の右側の上半分に、ニックネームの表示と、そのさらに右端に設定アイコン -->
+    <!-- 3. 1. の右側の下半分に、電話ボタン、メール送信ボタン、共有ボタンの 3 つを均等割付 -->
+    <!-- 4. 2. と 3. の間に分割線 -->
+    <!-- 条件: 3. 以外では LinearLayout を使ってはならない -->
+    <!-- Hint: 1. 画像の表示には、android:src="@drawable/ic_launcher" 属性を使います -->
+    <!-- Hint: 2. 画像を表示しながら、ボタンとして機能させる特別なボタンの View があります -->
+    <!-- Hint: 3. 区切り線を引く専用の UI はありません。背景色を android:background="#393939" にして、区切り線ぽく扱う工夫が必要です -->
+    <!-- Hint: 4. 均等割付するボタンの画像は、左から android:src="@android:drawable/ic_menu_call", android:src="@android:drawable/ic_menu_send", android:src="@android:drawable/ic_menu_share" です -->
+    <!-- TODO: 上記のまとまりの下に、幅 1 dp の区切り線を引く -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/droidkunn"
+        android:src="@drawable/ic_launcher"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/droidkunn"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:text="プロフィール"
+        android:id="@+id/intro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/droidkunn"
+        android:layout_alignTop="@+id/droidkunn"
+        android:text="Keith Yokoma"
+        android:id="@+id/keith"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/keith"
+        android:layout_alignTop="@+id/keith"
+        android:layout_alignBottom="@+id/keith"
+        android:src="@drawable/ic_launcher"
+        android:background="@color/colorPrimary"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/keith"
+        android:layout_alignLeft="@+id/keith"
+        android:layout_alignRight="@+id/settings"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/border"/>
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_call"
+        android:layout_below="@+id/border"
+        android:layout_toRightOf="@+id/intro"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/intro"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_send"
+        android:layout_below="@+id/border"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/button1"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_share"
+        android:layout_below="@+id/border"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/button2"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/intro"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/middleborder"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/space"
+        android:layout_below="@+id/middleborder"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:id="@+id/info"
+        android:text="30件のお知らせがあります！！"
+        android:background="@drawable/notify_button_state_list"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/space"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/info"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bottomborder"/>
+
+
+
+    <!-- TODO: 左側から順に、下記の View を配置していき、そのまとまりを画面下部に揃える -->
+    <!-- 1. ic_launcher のアイコンと、その下に メニュー の文字を表示し、アイコンの右肩に 30 と書かれたバッチを表示するボタン -->
+    <!-- 2. 幅 1dp の 縦の区切り線 -->
+    <!-- 3. ic_launcher のアイコンと、その右に つぶやきを投稿 の文字を表示しているボタン -->
+    <!-- 4. 幅 1dp の 縦の区切り線 -->
+    <!-- 5. ic_launcher のアイコンと、その下に 最近 の文字を表示しているボタン -->
+    <!-- 条件: LinearLayout は一切使用しない -->
+    <!-- Hint: 1. ボタンですが Button は使いません -->
+    <!-- Hint: 2. ボタン用の背景は android:background="@drawable/button_state_list" にします -->
+    <!-- Hint: 3. バッチ用の背景は android:background="@drawable/badge" にします -->
+    <!-- Hint: 4. TextView には、文字の隣に drawable を表示する属性があります -->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Frame1"
+        android:layout_below="@+id/bottomborder"
+        android:layout_marginLeft="20dp">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_below="@+id/bottomborder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cercle"
+            android:text="30" />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Frame1"
+        android:text="メニュー"
+        android:gravity="center"
+        android:id="@+id/menu"
+        android:layout_alignRight="@+id/Frame1"
+        android:layout_alignLeft="@+id/Frame1"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/Frame1"
+        android:layout_below="@+id/info"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bottomVertical"
+        android:layout_alignBottom="@id/menu"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@+id/bottomborder"
+        android:layout_toRightOf="@id/bottomVertical"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/centerimage"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/centerimage"
+        android:layout_below="@+id/bottomborder"
+        android:text="呟きを投稿"
+        android:id="@+id/tweet"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/tweet"
+        android:layout_below="@+id/info"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bottomVertical2"
+        android:layout_alignBottom="@id/menu"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@+id/bottomborder"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bottomVertical2"
+        android:id="@+id/imagebutton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebutton"
+        android:layout_toRightOf="@+id/bottomVertical2"
+        android:layout_marginLeft="40dp"
+        android:text="最近" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/menu"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bottom"/>
+
+    <!-- TODO: 上記の View の上に、お知らせを表示する View を配置する -->
+    <!-- Hint: 1. お知らせを表示する View の背景は android:background="@drawable/notify_button_state_list" にします -->
+</RelativeLayout>

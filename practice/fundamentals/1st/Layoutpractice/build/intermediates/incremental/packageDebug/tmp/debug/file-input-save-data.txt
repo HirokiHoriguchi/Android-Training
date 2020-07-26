@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Jul 24 22:42:19 JST 2020
+0.baseType=DIRECTORY
+0.base=/Users/horiguchihiroki/Downloads/AndroidTraining/AndroidStudio/practice/fundamentals/1st/LayoutPractice/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

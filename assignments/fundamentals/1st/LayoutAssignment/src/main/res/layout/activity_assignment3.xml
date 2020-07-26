@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Assignment3Activity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/Relative1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ドロイドくんの画像ファイル"
+            android:gravity="center"
+            android:id="@+id/droid"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/droid"
+            android:layout_alignEnd="@+id/droid"
+            android:layout_centerHorizontal="true"
+            android:text="res/ic_laucher.pg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_toRightOf="@+id/droid"
+            android:layout_alignTop="@+id/droid"
+            android:layout_alignBottom="@+id/text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/bbbb"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/Relative1"
+        android:id="@+id/dddd"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dddd"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xhdpi"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/aaaa"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="263dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/aaaa"
+            android:gravity="right"
+            android:text="12,516  bytes" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

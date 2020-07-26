@@ -1,0 +1,4 @@
+#Fri Jul 24 19:59:51 JST 2020
+base.0=/Users/horiguchihiroki/Downloads/AndroidTraining/AndroidStudio/practice/fundamentals/2nd/ControllerPractice/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
